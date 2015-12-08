@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="pb"
+          fetch="https://github.com/pbellanger/" />
   <remote  name="github_ganadist"
           fetch="https://github.com/ganadist/" />
   <remote  name="github_callmealdy"
@@ -13,8 +15,8 @@
         groups="device,mako,broadcom_pdk,generic_fs" />
 
   <project path="device/lge/occam" name="device_lge_occam"
-        remote="github_ganadist"
-        revision="android-6.0.0_r26"
+        remote="pb"
+        revision="marshmallow"
         groups="device,mako,broadcom_pdk,generic_fs" />
 
   <project path="vendor/broadcom" name="mako_vendor_broadcom"
@@ -32,11 +34,10 @@
         revision="android-6.0.0_r1"
         groups="device,mako,broadcom_pdk,generic_fs" />
 
-
-  <project path="vendor/google" name="gms_addon"
-    remote="github_ganadist"
-    revision="android-6.0.0_r1"
-    groups="device,mako,broadcom_pdk,generic_fs" />
+  <project path="vendor/google" name="vendor_google"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,mako,broadcom_pdk,generic_fs" />
 
   <project path="kernel/msm" name="kernel_lge_mako"
         remote="github_callmealdy"
