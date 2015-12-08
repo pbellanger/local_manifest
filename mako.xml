@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github_ganadist"
+          fetch="https://github.com/ganadist/" />
+  <remote  name="github_callmealdy"
+          fetch="https://github.com/CallMeAldy/" />
+
+  <remove-project name="platform/external/svox" />
+
+  <project path="device/lge/mako" name="device_lge_mako"
+        remote="github_ganadist"
+        revision="mm-6.0"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+  <project path="device/lge/occam" name="device_lge_occam"
+        remote="github_ganadist"
+        revision="android-6.0.0_r26"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+  <project path="vendor/broadcom" name="mako_vendor_broadcom"
+        remote="github_ganadist"
+        revision="android-6.0.0_r1"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+  <project path="vendor/lge" name="mako_vendor_lge"
+        remote="github_ganadist"
+        revision="android-6.0.0_r1"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+  <project path="vendor/qcom" name="mako_vendor_qcom"
+        remote="github_ganadist"
+        revision="android-6.0.0_r1"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+
+  <project path="vendor/google" name="gms_addon"
+    remote="github_ganadist"
+    revision="android-6.0.0_r1"
+    groups="device,mako,broadcom_pdk,generic_fs" />
+
+  <project path="kernel/msm" name="kernel_lge_mako"
+        remote="github_callmealdy"
+        revision="mm-6.0"
+        groups="device,mako,broadcom_pdk,generic_fs" />
+
+</manifest>
