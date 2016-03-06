@@ -4,8 +4,6 @@
           fetch="https://github.com/pbellanger/" />
   <remote  name="github_ganadist"
           fetch="https://github.com/ganadist/" />
-  <remote  name="github_callmealdy"
-          fetch="https://github.com/CallMeAldy/" />
 
   <remove-project name="platform/external/svox" />
 
@@ -39,9 +37,9 @@
         revision="marshmallow"
         groups="device,mako,broadcom_pdk,generic_fs" />
 
-  <project path="kernel/msm" name="kernel_lge_mako"
-        remote="github_callmealdy"
-        revision="mm-6.0"
+  <project path="kernel/msm" name="kernel_msm"
+        remote="pb"
+        revision="marshmallow"
         groups="device,mako,broadcom_pdk,generic_fs" />
 
 </manifest>
