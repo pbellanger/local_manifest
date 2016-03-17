@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="pb"
+          fetch="https://github.com/pbellanger/" />
+  <remote  name="aosp"
+          fetch=".." />
+
+  <project path="external/stlport" name="platform/external/stlport"
+        remote="aosp"
+        revision="refs/tags/android-5.1.1_r1"
+        groups="pdk" />
+
+  <project path="kernel/tegra" name="kernel/tegra"
+        remote="aosp"
+        revision="refs/tags/android-5.1.1_r1"
+        groups="device,grouper,tilapia,nakasig" />
+
+  <project path="device/asus/grouper" name="device/asus/grouper"
+        remote="aosp"
+        revision="refs/tags/android-5.1.1_r1"
+        groups="device,grouper" />
+
+  <project path="vendor/asus/grouper" name="vendor_asus_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="vendor/broadcom/grouper" name="vendor_broadcom_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="vendor/elan/grouper" name="vendor_elan_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="vendor/invensense/grouper" name="vendor_invensense_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="vendor/nvidia/grouper" name="vendor_nvidia_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="vendor/nxp/grouper" name="vendor_nxp_grouper"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,grouper" />
+
+  <project path="device/asus/tilapia" name="device/asus/tilapia"
+        remote="aosp"
+        revision="refs/tags/android-5.1.1_r1"
+        groups="device,tilapia" />
+
+  <project path="vendor/asus/tilapia" name="vendor_asus_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+  <project path="vendor/broadcom/tilapia" name="vendor_broadcom_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+  <project path="vendor/elan/tilapia" name="vendor_elan_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+  <project path="vendor/invensense/tilapia" name="vendor_invensense_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+  <project path="vendor/nvidia/tilapia" name="vendor_nvidia_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+  <project path="vendor/nxp/tilapia" name="vendor_nxp_tilapia"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,tilapia" />
+
+
+</manifest>
