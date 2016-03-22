@@ -15,6 +15,11 @@
         revision="refs/tags/android-5.1.0_r0.4"
         groups="device,grouper,tilapia,nakasig" />
 
+  <project path="device/asus/nakasig" name="device/asus/nakasig"
+        remote="pb"
+        revision="marshmallow"
+        groups="device,nakasig,tilapia,grouper" />
+
   <project path="device/asus/grouper" name="device/asus/grouper"
         remote="aosp"
         revision="refs/tags/android-5.1.1_r1"
@@ -84,6 +89,5 @@
         remote="pb"
         revision="marshmallow"
         groups="device,tilapia" />
-
 
 </manifest>
