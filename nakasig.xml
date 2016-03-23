@@ -15,7 +15,7 @@
         revision="refs/tags/android-5.1.0_r0.4"
         groups="device,grouper,tilapia,nakasig" />
 
-  <project path="device/asus/nakasig" name="device/asus/nakasig"
+  <project path="device/asus/nakasig" name="device_asus_nakasig"
         remote="pb"
         revision="marshmallow"
         groups="device,nakasig,tilapia,grouper" />
