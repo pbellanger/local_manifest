@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="pb"
+          fetch="https://github.com/pbellanger/" />
+
+  <remove-project name="platform/external/svox" />
+
+  <project path="vendor/google/build" name="vendor_google_build"
+        remote="pb"
+        revision="marshmallow" />
+
+</manifest>
