@@ -11,6 +11,10 @@
            remote="pb"
            revision="marshmallow" />
 
+  <project path="vendor/bijia/googleaddons" name="vendor_bijia_googleaddons"
+           remote="pb"
+           revision="marshmallow" />
+
   <project path="vendor/opengapps/sources/all" name="all"
            clone-depth="1"
            remote="opengapps"
