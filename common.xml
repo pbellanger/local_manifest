@@ -7,13 +7,13 @@
 
   <remove-project name="platform/external/svox" />
 
-  <project path="vendor/google/build" name="vendor_google_build"
-           remote="pb"
-           revision="marshmallow" />
+  <project path="vendor/google/build" name="aosp_build"
+           remote="opengapps"
+           revision="master" />
 
   <project path="vendor/bijia/googleaddons" name="vendor_bijia_googleaddons"
            remote="pb"
-           revision="marshmallow" />
+           revision="nougat" />
 
   <project path="vendor/opengapps/sources/all" name="all"
            clone-depth="1"
