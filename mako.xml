@@ -2,52 +2,9 @@
 <manifest>
   <remote  name="pb"
           fetch="https://github.com/pbellanger/" />
-  <remote  name="github_zaclimon"
-          fetch="https://github.com/zaclimon/" />
-
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-
-  <project path="device/lge/mako" name="android_device_lge_mako"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,broadcom_pdk,generic_fs" />
 
   <project path="device/lge/occam" name="device_lge_occam"
         remote="pb"
-        revision="nougat"
-        groups="device,mako,broadcom_pdk,generic_fs" />
-
-  <project path="vendor" name="android_vendor_lge"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,broadcom_pdk,generic_fs" />
-
-  <project path="kernel/msm" name="android_kernel_google_msm"
-        remote="github_zaclimon"
-        revision="mako-nougat"
-        groups="device,mako,broadcom_pdk,generic_fs" />
-
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,qcom" />
-
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,qcom" />
-
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,qcom" />
-
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media"
-        remote="github_zaclimon"
-        revision="nougat-mr1-release"
-        groups="device,mako,qcom" />
+        revision="oreo" />
 
 </manifest>

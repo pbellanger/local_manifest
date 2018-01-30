@@ -5,15 +5,9 @@
   <remote  name="opengapps"
            fetch="https://github.com/opengapps/"  />
 
-  <remove-project name="platform/external/svox" />
-
-  <project path="vendor/google/build" name="aosp_build"
+  <project path="vendor/opengapps/build" name="aosp_build"
            remote="opengapps"
            revision="master" />
-
-  <project path="vendor/bijia/googleaddons" name="vendor_bijia_googleaddons"
-           remote="pb"
-           revision="nougat" />
 
   <project path="vendor/opengapps/sources/all" name="all"
            clone-depth="1"
@@ -24,5 +18,9 @@
            clone-depth="1"
            remote="opengapps"
            revision="master" />
+
+  <project path="vendor/bijia/googleaddons" name="vendor_bijia_googleaddons"
+           remote="pb"
+           revision="oreo" />
 
 </manifest>
